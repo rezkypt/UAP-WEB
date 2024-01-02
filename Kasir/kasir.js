@@ -17,9 +17,5 @@ function tambahkanBarang() {
   )}</p>
 `;
 
-  var alertMessage = `Barang ditambahkan!\nKode Barang: ${kodeBarang}\nNama Barang: ${namaBarang}\nHarga: Rp ${hargaBarang.toFixed(
-    2
-  )}`;
 
-  alert(alertMessage);
 }
